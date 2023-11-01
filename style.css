@@ -1,0 +1,122 @@
+.header{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    color: white;
+    background-color: dimgray;
+    justify-content: space-around;
+}
+.ecommerce{
+    margin-left: 30px;
+}
+
+.header_items{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.section{
+    text-align: center;
+    margin-top: 10px;
+}
+.search{
+    text-align:left;
+}
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(autofit,minmax(350px,auto));
+    grid-gap: 50px;
+    margin: 50px auto;
+    max-width: 1240px;
+    padding: 20px;
+}
+.product{
+    padding: 10px;
+    width: 250px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+.product img{
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+.product .title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.procuct .description{
+    padding: 0 20px 20px 20px;
+    line-height: 22px;
+}
+
+.procuct .price{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    color: #9b0b03;
+    padding-top: 10px;
+    text-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+.product .cart{
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    background-color: #3e628f;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.cart{
+    margin-top: 10px;
+}
+.results{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.results img{
+    width: 200px;
+    height: 200px;
+    display: block;
+}
+.results .title{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.results .description{
+    padding: 0 20px 20px 20px;
+    line-height: 22px;
+}
+
+.results .price{
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    color: #9b0b03;
+    padding-top: 10px;
+    text-shadow: 0 5px 5px rgba(0,0,0,0.2);
+}
+.results .cart{
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 40px;
+    background-color: #3e628f;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+.results .category{
+    text-align: center;
+}
+
